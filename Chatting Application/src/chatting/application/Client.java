@@ -33,7 +33,7 @@ public class Client implements ActionListener{
         p1 = new JPanel();
         p1.setLayout(null);
         p1.setBackground(new Color(7, 94, 84));
-        p1.setBounds(0, 0, 450, 70);
+        p1.setBounds(0, 0, 400, 50);
         f1.add(p1);
         
        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("chatting/application/icons/3.png"));
@@ -141,7 +141,8 @@ public class Client implements ActionListener{
        f1.getContentPane().setBackground(Color.WHITE);
        f1.setLayout(null);
        f1.setSize(450, 700);
-       f1.setLocation(1100, 200); 
+       f1.setLocation(1100, 200);
+       f1.setLocationRelativeTo(null);
        f1.setUndecorated(true);
        f1.setVisible(true);
         

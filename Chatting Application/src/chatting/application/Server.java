@@ -29,6 +29,7 @@ public class Server implements ActionListener{
     
     Server(){
         f1.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        
         p1 = new JPanel();
         p1.setLayout(null);
         p1.setBackground(new Color(7, 94, 84));
@@ -141,7 +142,8 @@ public class Server implements ActionListener{
        f1.getContentPane().setBackground(Color.WHITE);
        f1.setLayout(null);
        f1.setSize(450, 700);
-       f1.setLocation(400, 200); 
+       f1.setLocation(400, 200);
+       f1.setLocationRelativeTo(null);
        f1.setUndecorated(true);
        f1.setVisible(true);
         
